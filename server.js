@@ -19,9 +19,9 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // ROUTES
-const routes = require("./controllers/index.js");
+const router = require("./controllers/index.js");
 
-app.use('/', routes);
+app.use(router);
 
 // Requiring our models for syncing
 const db = require("./models");
