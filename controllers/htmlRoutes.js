@@ -8,6 +8,7 @@ router.get("/", (req, res) => {
             res.render("index", {
                 burgers: result
             });
+
         }).catch(err => {
             res.status(500)
             throw err

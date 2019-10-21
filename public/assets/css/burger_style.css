@@ -1,0 +1,42 @@
+/*  IMPORTS
+========================================== */
+
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+/* GENERAL Config
+========================================== */
+
+h1 {
+    font-family: 'Modak', cursive;
+}
+
+div.jumbotron {
+    margin-bottom: 0;
+}
+
+div.navbar {
+    padding: 0rem 2rem;
+}
+
+div.card {
+    background-color: #ffffff00;
+}
+
+li span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div h2.theBurger {
+    font-size: 30px;
+    color: brown;
+    font-weight: 700;
+    margin: 15px 0 30px 0;
+}
+
+div.addB {
+    max-height: 300px;
+    border: 1px solid #53535317;
+    background-color: #dfdcdc7a;
+}

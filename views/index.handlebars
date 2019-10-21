@@ -1,5 +1,11 @@
-{{#each burgers}}
-    {{#unless devoured}}
-        {{> burgers/burgers}}
-    {{/unless}}
-{{/each}}
+<div class="col-sm-4">
+    {{> burgers/burgers}}
+</div>
+<div class="col-sm-4 addB">
+    {{> burgers/addburger}}
+</div>
+<div class="col-sm-4">
+    {{> burgers/dburgers}}
+</div>
+
+

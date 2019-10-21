@@ -1,1 +1,9 @@
-{{this.burger_name}}
+<div class="card mb-3 mt-3" id="burgerTobeDevour">
+  <ul class="list-group list-group-flush">
+{{#each burgers}}
+    {{#unless devoured}}
+        <li class="list-group-item mb-1"><img src="./assets/images/hamburger.svg" alt="The Burger" class="mr-2"><span>{{this.burger_name}}</span><button type="button" data-id="{{this.id}}" class="btn btn-success float-right btnDevourMe">Devour it</button></li>
+    {{/unless}}
+{{/each}}
+  </ul>
+</div>
