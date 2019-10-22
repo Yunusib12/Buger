@@ -15,31 +15,22 @@ $(() => {
     /* FUNCTIONS
     =================================== */
 
-    function initialize() {
-
-        $burgerTobeDevour.empty();
-        $burgerDevoured.empty();
-
-    }
-
-    function getBurgers() {
-
-        $.get("/").then(initialize);
-
-    }
-
     function devourBurger(burgerId) {
 
         $.ajax({
             method: "PUT",
             url: "/api/devour",
             data: { id: burgerId }
-        }).then(getBurgers);
+        }).then(() => {
+            location.reload();
+        });
     }
 
     function addBurger(burgerDatas) {
 
-        $.post("/api/add", burgerDatas, getBurgers);
+        $.post("/api/add", burgerDatas, () => {
+            location.reload();
+        });
         $burgerName.val("");
     }
 
@@ -48,7 +39,9 @@ $(() => {
         $.ajax({
             method: "DELETE",
             url: `/api/burger/${burgerId}`
-        }).then(getBurgers);
+        }).then(() => {
+            location.reload();
+        });
     }
 
 
