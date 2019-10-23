@@ -11,7 +11,7 @@ Welcome to The Burger Joint!  Allows you to place an order for a burger. When yo
 
 ### Screenshots
 
-<img src="/assets/images/my_burger.gif?raw=true">
+<img src="https://yunusibrahim.me/buger/public/assets/images/my_burger.gif?raw=true">
 
 ### Technologies Used
 
@@ -26,9 +26,8 @@ Welcome to The Burger Joint!  Allows you to place an order for a burger. When yo
 * Heroku - For deployment
 
 #### Frontend technologies
-HTML
-CSS
-Bootstrap (http://getbootstrap.com/)
-Javascript
-jQuery (https://jquery.com/)
-
+* HTML
+* CSS
+* Bootstrap (http://getbootstrap.com/)
+* Javascript
+* jQuery (https://jquery.com/)
