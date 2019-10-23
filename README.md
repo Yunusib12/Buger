@@ -11,7 +11,7 @@ Welcome to The Burger Joint!  Allows you to place an order for a burger. When yo
 
 ### Screenshots
 
-<img src="./assets/images/my_burger.gif?raw=true">
+<img src="/assets/images/my_burger.gif?raw=true">
 
 ### Technologies Used
 
